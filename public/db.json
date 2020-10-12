@@ -1,0 +1,251 @@
+{
+  "pandaBanda": {
+    "rating": 4.5,
+    "category": "Пицца",
+    "time": 50,
+    "name": "Панда-банда",
+    "items": [
+      {
+        "id": 0,
+        "name": "Пицца \"BBQ\"",
+        "img": "https://pandabanda.city/upload/resize_cache/iblock/6f7/520_400_2/6f767d127086035aa484528db420919a.jpg?1592075031119921",
+        "price": 139,
+        "ingredients": "Соус Барбекю, сыр Моцарелла, шампиньоны, бекон, лук, ветчина"
+      },
+      {
+        "id": 1,
+        "name": "Пицца Маргарита",
+        "img": "https://pandabanda.city/upload/resize_cache/iblock/143/520_400_2/143f5ab0b721147cb7cdf76b967c082c.jpg?1591913782113393",
+        "price": 109,
+        "ingredients": "Неаполитанский соус, сыр Моцарелла, помидор, базилик"
+      },
+      {
+        "id": 2,
+        "name": "Пицца Пепперони",
+        "img": "https://pandabanda.city/upload/resize_cache/iblock/607/520_400_2/607e829fd7641e9ce00d39cda0b90c91.jpg?1592075028131573",
+        "price": 139,
+        "ingredients": "Неаполитанский соус, сыр Моцарелла, Пепперони"
+      },
+      {
+        "id": 3,
+        "name": "Пицца \"Quattro Formaggi\"",
+        "img": "https://pandabanda.city/upload/resize_cache/iblock/8ea/520_400_2/8eac3df69324b0afd75325e38aead600.jpg?1592075026113655",
+        "price": 149,
+        "ingredients": "Сливочный соус, сыр Моцарелла, сыр ДорБлю, сыр Пармезан, Сыр Бри, базилик"
+      },
+      {
+        "id": 4,
+        "name": "Пицца \"Hunter\"",
+        "img": "https://pandabanda.city/upload/resize_cache/iblock/69d/520_400_2/69d9053a5cdf55e4a5499fac605443c4.jpg?1592075039142117",
+        "price": 119,
+        "ingredients": "соус Барбекю, моцарелла, бекон, охотничьи колбаски, огурец, шампиньоны, лук"
+      },
+      {
+        "id": 5,
+        "name": "Пицца Цезарио",
+        "img": "https://pandabanda.city/upload/resize_cache/iblock/a2b/520_400_2/a2b9598f018eceb87938999ac3bc75d3.jpg?1592060938137077",
+        "price": 149,
+        "ingredients": "Неаполитанский соус, сыр Моццарела, курица, помидор, листья салата, cыр Пармезан, яйца перепелиные, соус цезарь, соус бальзамик"
+      },
+      {
+        "id": 6,
+        "name": "Пицца Филадельфия",
+        "img": "https://pandabanda.city/upload/resize_cache/iblock/8c0/520_400_2/8c0ec8bcee40aa11514153e8cf6431c8.jpg?1592075044135518",
+        "price": 195,
+        "ingredients": "Неаполитанский соус, сыр Моцарелла, лосось, помидор, крем-сыр"
+      },
+      {
+        "id": 7,
+        "name": "Пицца \"Verona\"",
+        "img": "https://pandabanda.city/upload/resize_cache/iblock/a2c/520_400_2/a2c8fd99b3193723ff05312830ab1943.jpg?1592076824142799",
+        "price": 159,
+        "ingredients": "Неаполитанский соус, cыр Моцарелла, салями, прошутто, помидор, листья салата, сыр ДорБлю, сыр Пармезан, соус бальзамик"
+      }
+    ]
+  },
+  "tanuki": {
+    "rating": 3.7,
+    "time": 40,
+    "category": "Суши",
+    "name": "Тануки",
+    "items": [
+      {
+        "id": 0,
+        "name": "Филадельфия",
+        "img": "https://pandabanda.city/upload/iblock/cf3/cf3fd18fbd539e1bcebaf11469762307.jpg?158826332298056",
+        "price": 98,
+        "ingredients": "Крем сыр, огурец, лосось"
+      },
+      {
+        "id": 1,
+        "name": "Филадельфия икари",
+        "img": "https://pandabanda.city/upload/iblock/8a9/8a9c5df84f4c3b3849cc4a55467b740d.jpg?1588275465111301",
+        "price": 132,
+        "ingredients": "Крем сыр, огурец, угорь, Соус \"унаги\", Икра \"тобико\"\n"
+      },
+      {
+        "id": 2,
+        "name": "Филадельфия Люкс",
+        "img": "https://pandabanda.city/upload/iblock/b11/b11ef71268e48b6eeccf5bb655c95a9c.jpg?1588274131101925",
+        "price": 154,
+        "ingredients": "Крем сыр, огурец, лосось, икра\n"
+      },
+      {
+        "id": 3,
+        "name": "Калифорния с лососем",
+        "img": "https://pandabanda.city/upload/iblock/e1e/e1e75312d83983cef8f6ffb84b6d3494.jpg?1588275145142817",
+        "price": 118,
+        "ingredients": "Лосось, огурец, авокадо, Икра \"Тобико\""
+      },
+      {
+        "id": 4,
+        "name": "Калифорния с креветкой",
+        "img": "",
+        "price": 103,
+        "ingredients": "Креветка, огурец, авокадо, икра \"Тобико\""
+      },
+      {
+        "id": 5,
+        "name": "Калифорния с угрем",
+        "img": "https://pandabanda.city/upload/iblock/33e/33efc8f95b9b7cd2ebeed14ab1ffc253.jpg?1588253445112529",
+        "price": 104,
+        "ingredients": "Угорь, огурец, авокадо, кунжут, соус \"унаги\""
+      },
+      {
+        "id": 6,
+        "name": "Тигровый дракон",
+        "img": "https://pandabanda.city/upload/iblock/179/17971307213fac7031013bd7281e04dd.jpg?1588274540108857",
+        "price": 127,
+        "ingredients": ""
+      },
+      {
+        "id": 7,
+        "name": "Золотой дракон",
+        "img": "https://pandabanda.city/upload/iblock/7f0/7f06a362fa62d4dd852523194132c53e.jpg?1588275995116295",
+        "price": 144,
+        "ingredients": "Креветка, лосось, огурец, икра \"Тобико\", авокадо, соус \"Спайси\"\n"
+      },
+      {
+        "id": 8,
+        "name": "Кавай",
+        "img": "https://pandabanda.city/upload/iblock/7dd/7ddb02ad4d2ac3b34a203276b7fb88a9.jpg?1588252960127313",
+        "price": 112,
+        "ingredients": "Запеченный лосось, крем сыр, огурец, кунжут , чука\n"
+      },
+      {
+        "id": 9,
+        "name": "Эби",
+        "img": "https://pandabanda.city/upload/iblock/b58/b580e7edab8f07a6a8aa6cecc5138470.jpg?1588262947110317",
+        "price": 98,
+        "ingredients": "Креветка, крем сыр, икра \"Тобико\", чука, соус \"Спайси\""
+      },
+      {
+        "id": 10,
+        "name": "Хиджи",
+        "img": "https://pandabanda.city/upload/iblock/789/78914a6c71d0067e55cbc75f1216ce1c.jpg?1588274388109086",
+        "price": 135,
+        "ingredients": "Запеченный лосось, крем сыр, огурец, икра \"Тобико\""
+      }
+    ]
+  },
+  "sushka": {
+    "rating": 4.9,
+    "time": 35,
+    "category": "Лапша",
+    "name": "Сушка",
+    "items": [
+      {
+        "id": 0,
+        "name": "Лапша со свининой и беконом",
+        "img": "https://pandabanda.city/upload/resize_cache/iblock/355/520_400_2/355ae1cb536b79b101b0f952609ec0b5.jpg?1588262883107128",
+        "price": 99,
+        "ingredients": "Лапша, свинина, бекон, шампиньоны, морковь, брокколи, соевый соус, сливки, сыр, кунжут\n"
+      },
+      {
+        "id": 1,
+        "name": "Лапша со свининой острая",
+        "img": "https://pandabanda.city/upload/resize_cache/iblock/e01/520_400_2/e01455c85dafea997f37421d6d185077.jpg?1588276175107262",
+        "price": 105,
+        "ingredients": "Лапша, свинина, болгарский перец, морковь, шампиньоны, лук, чеснок, соус тереяки, соевый соус, шрирача соус, кунжут, перец чили\n"
+      },
+      {
+        "id": 2,
+        "name": "Лапша с курицей острая",
+        "img": "https://pandabanda.city/upload/resize_cache/iblock/84b/520_400_2/84b9cbda5b08351066a59e209e8cf79a.jpg?1588274850106650",
+        "price": 85,
+        "ingredients": "Лапша, курица, болгарский перец, морковь, спаржа, лук, чеснок, соевый соус, сладкий соус чили, шрирача соус, кунжут, перец чили\n"
+      },
+      {
+        "id": 3,
+        "name": "Лапша с курицей",
+        "img": "https://pandabanda.city/upload/resize_cache/iblock/afa/520_400_2/afa8c0083712a37cb44079d7b5fee61f.jpg?1588276603108812",
+        "price": 89,
+        "ingredients": "Лапша, курица, морковь, болгарский перец, спаржа, шампиньоны, лук, чеснок, соевый соус, соус тереяки, кунжут"
+      },
+      {
+        "id": 4,
+        "name": "Лапша с лососем и креветками",
+        "img": "https://pandabanda.city/upload/resize_cache/iblock/f6b/520_400_2/f6b4c08b7d943ca66182dca01eacd6c7.jpg?1588274574111724",
+        "price": 129,
+        "ingredients": "Лапша, лосось, креветка, морковь, болгарский перец, брокколи, соевый соус, сливки, лук, чеснок, сыр, кунжут\n"
+      },
+      {
+        "id": 5,
+        "name": "Лапша с овощами",
+        "img": "https://pandabanda.city/upload/resize_cache/iblock/a8b/520_400_2/a8b1e96fb2311d212d0d572e48f9bb89.jpg?1588274909106434",
+        "price": 85,
+        "ingredients": "Лапша, шампиньоны, морковь, болгарский перец, спаржа, брокколи, лук, чеснок, соевый соус, соус тереяки, кунжут\n"
+      }
+    ]
+  },
+  "zakuson": {
+    "rating": 4.5,
+    "category": "Бургеры",
+    "time": 15,
+    "name": "Закусон",
+    "items": [
+      {
+        "id": 0,
+        "name": "Гункан с копченным лососем",
+        "img": "https://pandabanda.city/upload/iblock/fd0/fd04491b8042b952316d72b804439ee4.jpg?1588253349135081",
+        "price": 40,
+        "ingredients": ""
+      },
+      {
+        "id": 1,
+        "name": "Гункан с креветкой",
+        "img": "https://pandabanda.city/upload/iblock/73c/73c4b2d92d257cd803300b36ea6d0bd7.jpg?1588275917136012",
+        "price": 38,
+        "ingredients": ""
+      },
+      {
+        "id": 2,
+        "name": "Гункан с угрем",
+        "img": "https://pandabanda.city/upload/iblock/cf4/cf463e10fa2ca0d75ac9b3b0d6be7007.jpg?1588276368123401",
+        "price": 42,
+        "ingredients": ""
+      },
+      {
+        "id": 3,
+        "name": "Гункан с крабом",
+        "img": "https://pandabanda.city/upload/iblock/2f5/2f5fbadf64db712d0447b72967141d39.jpg?1588252920137910",
+        "price": 32,
+        "ingredients": ""
+      },
+      {
+        "id": 4,
+        "name": "Гункан крем сыр с икрой",
+        "img": "https://pandabanda.city/upload/iblock/1b0/1b0e59d9020927c1a9eacbeb089c83ba.jpg?1588275131132321",
+        "price": 38,
+        "ingredients": ""
+      },
+      {
+        "id": 5,
+        "name": "Гункан лосось с авокадо",
+        "img": "https://pandabanda.city/upload/iblock/e14/e14a37dd56e505f5e14e0933a9c67a96.jpg?1588275380119276",
+        "price": 42,
+        "ingredients": ""
+      }
+    ]
+  }
+}
