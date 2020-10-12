@@ -28,6 +28,9 @@ export default {
   components:{
     'v-advertising':Advertising,
     'v-restraunt-item':RestrauntItem
+  },
+  created(){
+    this.$store.dispatch('getRestraunts')
   }
 };
 </script>
