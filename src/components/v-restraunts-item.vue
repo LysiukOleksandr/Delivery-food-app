@@ -1,15 +1,19 @@
 <template>
   <div class="restraunts__item">
+    
+    <router-link :to="routePath">
     <div class="restraunts__item-img">
       <img
-        src="https://pandabanda.city/upload/resize_cache/iblock/6f7/520_400_2/6f767d127086035aa484528db420919a.jpg?1592075031119921"
+        :src="imgUrl"
         alt="img-1"
       />
     </div>
+    </router-link>
     <div class="restraunts__item-about">
       <h3 class="restraunts__item-title">
         {{ name }}
       </h3>
+      
       <p class="restraunts__item-time">{{ time }} мин</p>
     </div>
     <div class="restraunts__item-flex">
@@ -45,6 +49,11 @@ export default {
     rating: Number,
     startPrice: Number,
     category: String
+  },
+  computed:{
+    routePath(){
+      return 'restraunt/' + this.id
+    }
   }
 }
 </script>

@@ -26,13 +26,14 @@
       </div>
       <div class="restraunts__content">
         <v-restraunts-item
-         v-for="(item) in getRestrauntsData" 
+         v-for="(item) in restrauntsData" 
          :key="item.id" 
          :id="item.id" 
          :name="item.name" 
          :time="item.time" 
          :rating="item.rating" 
          :startPrice="item.startPrice" 
+         :imgUrl='item.imgUrl'
          :category="item.category"
          ></v-restraunts-item>
       </div>
@@ -53,7 +54,7 @@ export default {
     this.$store.dispatch('getRestraunts')
   },
   computed:{
-    getRestrauntsData(){
+    restrauntsData(){
       return this.$store.state.home.restraunts
     }
   }
@@ -120,7 +121,7 @@ export default {
       max-width: 384px;
       img {
         width: 100%;
-        max-height: 250px;
+       height: 250px;
         object-fit: cover;
       }
     }
