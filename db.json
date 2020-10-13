@@ -1,10 +1,13 @@
 {
   "restraunts": [
     {
+      
+     "id":0,
       "rating": 4.5,
       "category": "Пицца",
       "time": 50,
       "name": "Панда-банда",
+      "startPrice":109,
       "items": [
         {
           "id": 0,
@@ -65,10 +68,13 @@
       ]
     },
     {
+      
+     "id":1,
       "rating": 3.7,
       "time": 40,
       "category": "Суши",
       "name": "Тануки",
+      "startPrice":98,
       "items": [
         {
           "id": 0,
@@ -150,10 +156,14 @@
       ]
     },
     {
+      
+     "id":2,
       "rating": 4.9,
       "time": 35,
       "category": "Лапша",
       "name": "Сушка",
+      
+      "startPrice":85,
       "items": [
         {
           "id": 0,
@@ -200,10 +210,13 @@
       ]
     },
     {
+     "id":3,
       "rating": 4.5,
       "category": "Бургеры",
       "time": 15,
       "name": "Закусон",
+      
+      "startPrice":32,
       "items": [
         {
           "id": 0,

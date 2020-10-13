@@ -13,8 +13,6 @@ export default{
     getRestraunts({commit}){
       axios.get('http://localhost:3000/restraunts')
       .then(({data})=>{
-       
-        console.log(data)
       commit(SET_RESTRAUNTS_DATA, data)
       }).catch((error)=>{
         console.log(error)
