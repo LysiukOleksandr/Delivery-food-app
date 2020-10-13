@@ -109,14 +109,14 @@
         {
           "id": 4,
           "name": "Калифорния с креветкой",
-          "img": "",
+          "img": "https://pandabanda.city/upload/iblock/33e/33efc8f95b9b7cd2ebeed14ab1ffc253.jpg?1588253445112529",
           "price": 103,
           "ingredients": "Креветка, огурец, авокадо, икра \"Тобико\""
         },
         {
           "id": 5,
           "name": "Калифорния с угрем",
-          "img": "https://pandabanda.city/upload/iblock/33e/33efc8f95b9b7cd2ebeed14ab1ffc253.jpg?1588253445112529",
+          "img": "https://pandabanda.city/upload/iblock/0a2/0a273b534fa0cd93f8c386f02ecb019f.jpg?1588274255115025",
           "price": 104,
           "ingredients": "Угорь, огурец, авокадо, кунжут, соус \"унаги\""
         },

@@ -1,5 +1,4 @@
 import axios from 'axios'
-import { SET_RESTRAUNT_DATA } from './mutation-types';
 export default{
   state:{
     restrauntDetails:{
@@ -12,7 +11,7 @@ export default{
     items:[]
   },
   mutations:{
-[SET_RESTRAUNT_DATA](state,{restrauntDetails,items}){
+SET_RESTRAUNT_DATA(state,{restrauntDetails,items}){
     state.restrauntDetails = restrauntDetails;
     state.items = items
 }
@@ -31,7 +30,7 @@ export default{
           },
           items: data.items
         }
-        commit(SET_RESTRAUNT_DATA,payload)
+        commit('SET_RESTRAUNT_DATA',payload)
 
       }).catch((error)=>{
         console.log(error)
