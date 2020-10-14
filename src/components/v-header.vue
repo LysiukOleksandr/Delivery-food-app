@@ -46,7 +46,6 @@ export default {
   methods:{
     changeCartStatus(val){
       this.$store.commit('IS_CART_OPEN',val)
-      // console.log(this.$store.commit)
     }
   },
   computed:{
