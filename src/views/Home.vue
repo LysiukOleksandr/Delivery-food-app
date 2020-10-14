@@ -4,7 +4,6 @@
     <section class="restraunts">
       <div class="restraunts__top">
         <h2 class="restraunts__title">Рестораны</h2>
-      
       </div>
       <div class="restraunts__content">
         <v-restraunts-item

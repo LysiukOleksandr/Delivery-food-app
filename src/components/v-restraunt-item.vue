@@ -1,7 +1,7 @@
 <template>
   <div class="restraunt__item">
-      <div class="restraunt__item-img">
-        <img :src="img" alt="restraunt-1">
+      <div class="restraunt__item-img"  >
+        <img :src="img" alt="restraunt-1" >
       </div>
       <h3 class="restraunt__item-title">{{name}}</h3>
       <p class="restraunt__item-ingredients">{{ingredients}}</p>
@@ -38,7 +38,3 @@ methods:{
 }
 }
 </script>
-
-<style>
-
-</style>

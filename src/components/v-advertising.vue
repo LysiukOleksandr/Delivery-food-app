@@ -1,5 +1,5 @@
 <template>
-  <section class="advertising">
+  <section class="advertising" >
     <h1 class="advertising__title">Онлайн-сервис доставки еды на дом</h1>
     <p class="advertising__subtitle">Блюда из любимого ресторана привезет курьер в перчатках, маске и с антисептиком</p>
   </section>
@@ -7,7 +7,7 @@
 
 <script>
 export default {
-name:'v-advertising'
+  name:'v-advertising',
 }
 </script>
 
