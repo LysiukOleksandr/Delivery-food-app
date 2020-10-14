@@ -15,7 +15,7 @@
     <div class="cart__bottom">
       <p class="cart__total-price"> {{ totalPrice }} грн</p>
       <div class="cart__bottom-flex">
-      <button class="cart__accept">Оформить заказ</button>
+      <button class="cart__accept" @click="checkout">Оформить заказ</button>
       <button class="cart__cancel" @click="changeCartStatus(false)">Отмена</button>
     </div>
     </div>
@@ -34,6 +34,14 @@ components:{
 methods:{
   changeCartStatus(val){
     this.$store.commit('IS_CART_OPEN',val)
+  },
+  checkout(){
+    console.log('RECEIPT')
+    this.products.map((item)=>{
+      console.log(`${item.name} --- ${item.price}грн --- ${item.quantity}шт`);
+      
+    })
+    console.log(`Total price - ${this.totalPrice}`)
   }
  },
  computed:{
@@ -73,6 +81,10 @@ methods:{
     border-radius: 5px;
     position: relative;
     overflow-y:auto;
+    padding-bottom: 20px;
+    @media screen and(max-width:1400px) {
+      height: 510px;
+    }
     @media screen and(max-width:490px) {
       padding: 20px 65px;
     }
@@ -108,7 +120,7 @@ methods:{
 
   &__body {
     margin-top: 45px;
-    @media screen and(max-width:490px) {
+    @media screen and(max-width:550px) {
       margin-top: 15px;
     }
   }
@@ -117,7 +129,7 @@ methods:{
     align-items: center;
     border-bottom: 1px solid #d9d9d9;
     padding: 10px 0;
-    @media screen and(max-width:490px) {
+    @media screen and(max-width:550px) {
       flex-direction: column;
       justify-content: center;
     }
@@ -125,9 +137,13 @@ methods:{
       line-height: 32px;
       font-weight: 400;
       color: #000;
-      width: 200px;
+      min-width: 200px;
       @media screen and (max-width:820px){
-        width: 100px;
+        width: 140px;
+      }
+       @media screen and(max-width:670px){
+        min-width: 0;
+        width: 120px;
       }
     }
     &-price {
@@ -135,23 +151,25 @@ methods:{
       font-weight: 700;
       line-height: 32px;
       color: #000;
-      margin-left: 285px;
-      min-width: 80px;
+      margin-left: 235px;
+      min-width: 110px;
       @media screen and(max-width:820px) {
-        margin-left: 150px;
+        margin-left: 70px;
       }
       @media screen and(max-width:590px) {
         margin-left: 50px;
       }
-      @media screen and(max-width:490px) {
+      @media screen and(max-width:550px) {
         margin-left: 0;
+        text-align: center;
       }
     }
     &-flex {
       margin-left: 47px;
       display: flex;
       align-items: center;
-      @media screen and(max-width:490px) {
+      
+      @media screen and(max-width:550px) {
         margin-left: 0;
         margin-top: 10px;
       }
@@ -175,7 +193,7 @@ methods:{
       text-align: center;
       color: #000;
       margin: 0 13px;
-      @media screen and(max-width:490px) {
+      @media screen and(max-width:550px) {
         margin: 0 10px;
       }
     }

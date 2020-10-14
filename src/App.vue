@@ -198,11 +198,13 @@ textarea {
 button,
 input { /* 1 */
   overflow: visible;
-  cursor:pointer;
   outline: none;
 
 }
 
+button{
+  cursor:pointer;
+}
 /**
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.

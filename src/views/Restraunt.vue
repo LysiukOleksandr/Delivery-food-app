@@ -67,8 +67,8 @@ created(){
       color: #ffc107;
       margin-left: 5px;
     }
-    @media screen and(max-width:350px) {
-      margin-left: 10px;
+    @media screen and(max-width:480px) {
+      display: none;
     }
   }
 
@@ -91,8 +91,8 @@ created(){
         display: none;
       }
     }
-    @media screen and(max-width:350px) {
-      margin-left: 5px;
+    @media screen and(max-width:480px) {
+      display: none;
     }
   }
 
